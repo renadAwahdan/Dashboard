@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="Dashboard.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head>
+    <body>
+        <div class="dashboard-container">
+            <aside class="side-bar">
+                <div class="side-bar-header">
+                    <div class="logo">
+                        <i class="fa-brands fa-slack"></i>
+                        <span class="logo-name">DashPro</span>
+                    </div>
+                </div>
+                <nav class="side-bar-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link"><i class="fa-solid fa-chart-line"></i>
+                            <span>Dashboard</span>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i class="fa-solid fa-chart-pie"></i>
+                            <span>Analytics</span>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i class="fa-solid fa-user"></i>
+                            <span>Users</span>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i class="fa-solid fa-diagram-project"></i>
+                            <span>Projects</span>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i class="fa-solid fa-gear"></i>
+                            <span>Settings</span>
+                        </a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <main class="main-content">
+                <header class="main-header">
+                    <div class="header-left">
+                        <h1 class="page-title">Dashboard Overview</h1>
+                        <p class="page-subtitle">
+                            Welcome back! Here's What's happening today
+                        </p>
+                    </div>
+                    <div class="header-right">
+                        <div class="search-box">
+                            <input type="text" placeholder="Search..." class="search-input">
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>                      
+                         </div>
+                         <div class="header-actions">
+                            <button class="notification-btn">
+                                <i class="fa-solid fa-bell bell-icon"></i>
+                                <span class="notification-badge">3</span>
+                            </button>
+                            <div class="user-profile">
+                                <img src="catcootie.jpeg" alt="userpic" class="profile-image">
+                                <div class="profile-info">
+                                    <span class="profile-name">John Doe</span>
+                                    <span class="profile-role">Administrator</span>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                </header>
+                <section class="first-section">
+                    <div class="stats">
+                        <div class="cards">
+                            <div class="cards-icon green">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                            <h3>$45,231</h3>
+                            <p>Total Revenue</p>
+                            <span style="color: lightgreen;">+12.5%</span>
+                        </div>
+                        <div class="cards">
+                        <div class="cards-icon blue">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <h3>2,432</h3>
+                            <p>Active Users</p>
+                            <span style="color: lightgreen;">+8.2%</span>
+                        </div>
+                        <div class="cards">
+                        <div class="cards-icon orange">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <h3>1,247</h3>
+                            <p>Total Orders</p>
+                            <span style="color: red;">-3.1%</span>
+                        </div>
+                        <div class="cards">
+                        <div class="cards-icon purple">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                            <h3>78.4%</h3>
+                            <p>Conversion Rate</p>
+                            <span style="color: lightgreen;">+5.7%</span>
+                        </div>
+                    </div>
+                    <section class="second-section">
+                        <div class="dashboard-row">
+                        <section class="recent-activity">
+                            <div class="recent-header">
+                            <h2 class="header-title">Recent Activity</h2>
+                            <a href="#" class="view-all">View All</a>
+                            </div>
+                            <ul class="activity-list">
+                                <li class="activity-info">
+                                    <img src="vvvvvv.jpeg" alt="user1" class="user-icon">
+                                     <div class="user-name"><strong>Sarah Johnson</strong> Completed project review
+                                     <div class="time">2 minutes ago</div>
+                                     </div>
+                                </li>
+                                <li class="activity-info">
+                                    <img src="catie.jpeg" alt="user2" class="user-icon">
+                                    <div class="user-name"><strong>Mike Chen</strong>
+                                    Uploaded new documents
+                                     <div class="time">15 minutes ago</div>
+                                    </div>
+                                </li>
+                                <li class="activity-info">
+                                    <img src="download.jpeg" alt="user3" class="user-icon">
+                                    <div class="user-name"><strong>Emma Wilson</strong>
+                                    Created new task
+                                     <div class="time">1 hour ago</div>
+                                    </div>
+                                </li>
+                                <li class="activity-info">
+                                    <img src="catcootie.jpeg" alt="user4" class="user-icon">
+                                    <div class="user-name"><strong>John Doe</strong>
+                                    Uproved budget request
+                                     <div class="time">3 hours ago</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+                      <section class="project-progress">
+                        <div class="recent-header">
+                            <h2>Project Progress</h2>
+                            <a href="#" class="view-all">Manage</a>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-title">
+                                Website Redesign 
+                                <span class="date">Due:Dec 15,2024</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-title">
+                                Mobile App Development 
+                                <span class="date">Due:Jan 20,2025</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 45%;"></div>
+                        </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-title">
+                                    Database Migration 
+                                    <span class="date">Due:Dec 20,2024</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                      </section>
+                    </div>
+                </div>
+                </section>
+            </section>
+            </main>
+        </div>
+    </body>
+</html>
